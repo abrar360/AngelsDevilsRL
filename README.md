@@ -15,9 +15,9 @@ Two different Reinforcement Learning algorithms are implemented:
   
   An angel player and devil player take turns making random moves. If the game results in a loss for the angel, the neural network is penalized for each move the angel made during that game. Similarly, the neural network is rewarded for each move the angel made if the game results in a win for the angel.
 
-***Approaches have not been integrated, please see [Yi's GitHub](https://github.com/yiliu77) for neural network agent***
+*Approaches have not been integrated, please see [Yi's GitHub](https://github.com/yiliu77) for neural network agent*
 
 
-Decision Making:
+# Decision Making:
 
   At any position, the angel can have a maximum of 4 possible moves (up, down, left, right). The angel agent chooses the optimum move that maximizes the reward, while taking into account squares blocked by the devil agent.
