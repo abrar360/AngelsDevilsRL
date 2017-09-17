@@ -1,5 +1,7 @@
 # AngelsDevilsRL
-A Reinforcement Learning approach to Conway's Angel Problem
+A Reinforcement Learning approach to Conway's Angel Problem (except played on a 9x9 grid instead of an an infinite one)
+
+Governor's Honors Program 2017 Mathematics Project: Abrar Ahmed and Yi Liu
 
 Training:
 
@@ -9,6 +11,7 @@ Two different Reinforcement Learning algorithms are implemented:
 
   Feedforward Neural Network: An angel player and devil player take turns making random moves. If the game results in a loss for the angel, the neural network is penalized for each move the angel made during that game. Similarly, the neural network is rewarded for each move the angel made if the game results in a win for the angel.
 
+***Approaches have not been integrated, please see Yi's GitHub @yiliu77 for neural network agent***
 
 
 Decision Making:
