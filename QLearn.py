@@ -1,7 +1,5 @@
 import numpy as np
 import random
-import matplotlib.pyplot as plt
-from matplotlib.collections import LineCollection
 
 
 # defines the reward/connection graph
@@ -56,14 +54,13 @@ class QLearn:
 
 
     def train_q(self):
-        #state = initial_state
-        print("hello")
+        print("Training...")
         for u in range(100000):
             if u % 10000 == 0:
                 print(u)
             state = random.randint(0, 80)
             while self.get_layer(state) != 4:
-                state = self.update_q(state, 0.1)
+                state = self.update_q(state, self.gamma)
 
     def get_move(self, state):
         adj = [state - 1, state + 1, state - 9, state + 9]
