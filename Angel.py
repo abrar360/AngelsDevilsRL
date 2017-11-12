@@ -1,6 +1,4 @@
 import numpy as np
-from NeuralNetwork import NeuralNetwork
-
 
 class Angel:
     def __init__(self, sides, trained=False):
